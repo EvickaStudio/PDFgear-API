@@ -1,4 +1,4 @@
-from api.summary import get_summary
+from api.summary import summarize
 from utility.text_formatter import format_text
 
 message = """
@@ -7,6 +7,6 @@ message = """
 """
 
 # This is where we call the functions, it's so 🔥
-message = get_summary(message)
+message = summarize(message)
 
 print(format_text(message))

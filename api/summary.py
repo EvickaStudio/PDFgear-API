@@ -1,7 +1,7 @@
 import requests
 
 post_url = "https://chatapi.pdfgear.com/pdf/getsummary"
-def get_summary(text):
+def summarize(text):
     data = {
         "user": "",
         "messages": None,
